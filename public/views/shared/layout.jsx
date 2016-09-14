@@ -1,7 +1,7 @@
 'use strict';
 
 var React = require('react');
-var Navbar = require('./navbar');
+var Header = require('./header');
 
 module.exports = React.createClass({
   displayName: 'Layout',
@@ -18,7 +18,7 @@ module.exports = React.createClass({
         </head>
         <body>
           <div>
-              <Navbar/>
+              <Header/>
               {this.props.children}
           </div>
           <script src='/bundle.js'></script>

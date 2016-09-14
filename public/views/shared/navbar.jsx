@@ -8,12 +8,14 @@ module.exports = React.createClass({
         return (
             <nav>
                 <div className="nav-wrapper linus-nav red darken-3">
-                    <a href="#!" className="brand-logo">LinusRed</a>
                     <a href="#" data-activates="mobile-drop-down" className="button-collapse">
                         <i className="material-icons">menu</i>
                     </a>
-                    <ul className="right hide-on-med-and-down">
-                        <li><a href="/gohome">Home</a></li>
+                    <ul className="center hide-on-med-and-down">
+                        <li><a href="/gohome">About</a></li>
+                        <li><a href="/gohome">Resume</a></li>
+                        <li><a href="/gohome">Contact</a></li>
+                        <li><a href="/gohome">Projects</a></li>
                     </ul>
                     <ul className="side-nav" id="mobile-drop-down">
                         <li><a href="/gohome">Home</a></li>
