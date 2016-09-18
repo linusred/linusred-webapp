@@ -3,7 +3,7 @@
 import React from 'react';
 import { Router, Route, IndexRoute, Redirect, browserHistory } from 'react-router';
 
-import Layout from './views/shared/layout.jsx';
+import Layout from './views/common/layout.jsx';
 import IndexPage from './views/indexPage/index.jsx';
 import Error404 from './views/404.jsx';
 

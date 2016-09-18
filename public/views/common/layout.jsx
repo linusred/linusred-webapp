@@ -14,9 +14,8 @@ module.exports = React.createClass({
             <link rel='stylesheet' href='/css/materialize.min.css'/>
             <link rel='stylesheet' href='/css/linusred.css'/>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-
         </head>
-        <body>
+        <body className="background">
           <div>
               <Header/>
               {this.props.children}

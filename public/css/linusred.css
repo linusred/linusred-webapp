@@ -1,3 +1,7 @@
+.background {
+    background-color: #303535;
+}
+
 header img {
     max-height:168px;
 }
@@ -26,6 +30,13 @@ header nav ul li a {
     margin: 0 25px;
 }
 
+.image-for-card {
+    padding-top: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header p {
     font-style: italic;
 }
@@ -36,6 +47,54 @@ header h1 {
     font-size: 2.5em;
 }
 
+.section-title {
+    position: relative;
+    margin-bottom: 1em;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.section-title:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    border-bottom: 4px solid #dddddd
+}
+
+.free-text {
+    line-height: 1.25
+}
+
+.section-title span {
+    position: relative;
+    display: inline-block;
+    padding-right: 1.4em;
+    background: #303535;
+}
+
+.card-loader {
+    padding: 5px;
+}
+
+.section-title i {
+    padding: 8px;
+    border-radius: 100%;
+    color: #dddddd;
+    border: 4px solid #dddddd;
+    margin-right: 16px;
+    font-size: 24px;
+}
+
+span.last-fm-card-content p {
+    font-size: 0.8em
+}
+
+body {
+    color: white;
+}
 nav div.linus-nav{
     padding-left: 10px;
     padding-right: 10px;
