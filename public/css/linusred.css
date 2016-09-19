@@ -30,11 +30,16 @@ header nav ul li a {
     margin: 0 25px;
 }
 
-.image-for-card {
+.card-image-lastfm {
     padding-top: 5px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card-image-repo {
+    padding-top: 5px;
+    width: 10%;
 }
 
 header p {
@@ -90,6 +95,10 @@ header h1 {
 
 span.last-fm-card-content p {
     font-size: 0.8em
+}
+
+div.repo-list .card-content p {
+    border-radius: 8px;
 }
 
 body {

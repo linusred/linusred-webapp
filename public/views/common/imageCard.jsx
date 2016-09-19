@@ -10,7 +10,7 @@ module.exports = React.createClass({
                 {(()=> {
                     return this.props.imageUrl == "" ?
                         (<Preloader/>) :
-                        (<img className="image-for-card" src={this.props.imageUrl}/>)
+                        (<img className={this.props.imageClass} src={this.props.imageUrl}/>)
                 })()}
 
                 <div className="card-content">

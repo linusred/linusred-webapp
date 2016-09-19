@@ -34,7 +34,7 @@ app.set('view', ReactEngine.expressView);
 
 app.use(express.static(join(__dirname, '/public')));
 
-app.get('/recentGithubRepos', getLastThreeRepos);
+app.get('/repoList', getLastThreeRepos);
 app.get('/lastSong', getLatestSong);
 
 app.get('*', function(req, res) {
