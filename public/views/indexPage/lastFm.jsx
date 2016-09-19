@@ -7,7 +7,10 @@ module.exports = React.createClass({
     displayName: 'SectionTitle',
     render: function render() {
         return (
-            <ImageCard imageUrl={this.props.imageUrl} content={this.createContent()} linkTitle="last.fm"
+            <ImageCard imageUrl={this.props.imageUrl}
+                       content={this.createContent()}
+                       linkTitle="last.fm"
+                       imageClass="card-image-lastfm"
                        link="http://last.fm/user/linusred"/>
         );
     },
