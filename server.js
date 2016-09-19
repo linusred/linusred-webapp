@@ -8,6 +8,7 @@ import favicon from 'serve-favicon';
 import ReactEngine from 'react-engine';
 import routes from './public/routes.jsx';
 import {getLatestSong} from './lib/lastfm'
+import {getLastThreeRepos} from './lib/github'
 let app = express();
 
 let engine = ReactEngine.server.create({
@@ -33,7 +34,7 @@ app.set('view', ReactEngine.expressView);
 
 app.use(express.static(join(__dirname, '/public')));
 
-
+app.get('/recentGithubRepos', getLastThreeRepos);
 app.get('/lastSong', getLatestSong);
 
 app.get('*', function(req, res) {

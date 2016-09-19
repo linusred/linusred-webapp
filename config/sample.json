@@ -1,5 +1,6 @@
 //change to default.json
 {
   "lastfmKey": "anapikey",
-  "lastfmUser": "yourLastFmUserName"
+  "lastfmUser": "yourLastFmUserName",
+  "githubUser": "yourGithubUsername"
 }
